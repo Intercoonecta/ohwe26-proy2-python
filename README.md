@@ -105,5 +105,5 @@ Próximas actividades:
 - [ ] Explorar los datos. 
 
 
-Integrantes: Isabel Perez, Victor Goméz, María Cifuentes y Keynie Cauich-Tome. 
+**Integrantes:** Isabel Pérez, Victor Goméz, María Cifuentes y Keynie Cauich-Tome. 
 
