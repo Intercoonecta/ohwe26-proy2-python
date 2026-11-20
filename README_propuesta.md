@@ -4,20 +4,19 @@
 
 Se integrarán datos oceanográficos satelitales del servicio Marine Copernicus (CMEMS) con información geoespacial de actividad pesquera aparente de Global Fishing Watch (GFW), mediante herramientas de programación y análisis de datos en Python.
 
-El estudio pretende explorar la relación entre las condiciones de productividad del ecosistema, representadas mediante la concentración de clorofila-a y, cuando sea viable, estimaciones de producción primaria, y la distribución e intensidad de la actividad pesquera aparente.
+Se consideran datos de clorofila-a como indicador de la biomasa fitoplanctónica y, por tanto, como una variable proxy relacionada con la productividad del ecosistema marino. Estos datos se complementarán con información de actividad pesquera aparente derivada de registros del sistema de identificación automática (AIS), proporcionada por Global Fishing Watch (GFW).
 
 Adicionalmente, se propone comparar los patrones observados dentro del área marina protegida y en sus zonas circundantes, como aproximación exploratoria a la relación entre conservación, dinámica ecológica y aprovechamiento pesquero.
 
 ## 2. Preguntas de investigación
 
-¿Qué asociación espacial y temporal existe entre la concentración de clorofila-a y la actividad pesquera aparente en el entorno marino de Shiretoko?
+¿Cómo se distribuye espacial y temporalmente la actividad pesquera aparente en las áreas EBSA seleccionadas de Shiretoko?
 
-¿Cómo varían los patrones de actividad pesquera aparente en relación con la productividad del ecosistema?
+¿Qué patrones espaciales y temporales presenta la concentración superficial de clorofila-a en el área de estudio?
 
-¿Qué diferencias se observan en la distribución de la actividad pesquera aparente dentro del área marina protegida y en sus aguas circundantes?
+¿Se identifican coincidencias o asociaciones espaciales y temporales entre la variabilidad de la clorofila-a y la actividad pesquera aparente?
 
-¿Cómo pueden las herramientas de análisis geoespacial y estadístico en Python contribuir al seguimiento de estas dinámicas?
-
+¿Cómo puede contribuir la integración de información oceanográfica y pesquera a la comprensión de la dinámica ecosistémica del área de estudio?
 
 ## 3. Objetivo general
 
@@ -59,9 +58,13 @@ Sitio: https://globalfishingwatch.org/
 
 ## 6. Área de estudio
 
-Área preliminar: entorno marino de Shiretoko, noreste de Hokkaido, Japón.
-Se considerará el área marina asociada al sitio de Patrimonio Mundial Natural de Shiretoko y una zona circundante de comparación.
-La delimitación definitiva se establecerá a partir de los límites geográficos oficiales disponibles y la cobertura espacial de los productos oceanográficos y pesqueros.
+El área de estudio comprende dos polígonos correspondientes a áreas de importancia ecológica y biológica (EBSA, por sus siglas en inglés), localizados en el entorno marino de Shiretoko, Hokkaido, Japón:
+
+EBSA 10401: Shiretoko (Shari–Utoro) side coast.
+
+EBSA 10402: Shiretoko (Rausu) side coast.
+
+La delimitación espacial se encuentra representada en el archivo geográfico Shiretoko_EBSA_10401_10402.geojson, utilizado para realizar las consultas y los análisis geoespaciales.
 
 ## 7. Periodo de análisis
 
